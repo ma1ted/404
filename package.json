@@ -1,0 +1,21 @@
+{
+	"name": "404",
+	"version": "1.0.0",
+	"description": "A landing page for soft 404 errors",
+	"main": "src/404.js",
+	"dependencies": {
+		"three": "^0.138.3"
+	},
+	"devDependencies": {
+		"parcel": "^2.3.2"
+	},
+	"scripts": {
+		"dev": "parcel src/404.html"
+	},
+	"keywords": [
+		"404",
+		"error"
+	],
+	"author": "ma1ted",
+	"license": "ISC"
+}

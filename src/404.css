@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,400&display=swap');
+
+@keyframes h1-position-easeOutElastic {
+    0% { transform: translateY(calc(0% - 100%)) }
+    16% { transform: translateY(calc(132.27% - 100%)) }
+    28% { transform: translateY(calc(86.88% - 100%)) }
+    44% { transform: translateY(calc(104.63% - 100%)) }
+    59% { transform: translateY(calc(98.36% - 100%)) }
+    73% { transform: translateY(calc(100.58% - 100%)) }
+    88% { transform: translateY(calc(99.8% - 100%)) }
+    100% { transform: translateY(calc(100% - 100%)) }
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.title-anim {
+    margin: 0;
+    position: absolute;
+    transform: translateY(-150%);
+    width: 100%;
+    text-align: center;
+    top: 5%;
+    color: white;
+    font-family: 'Roboto Mono', sans-serif; font-weight:400; font-style:italic;
+    font-size: 20vh;
+    animation-delay: 0.4s;
+    animation-duration: 1s;
+    animation-name: h1-position-easeOutElastic;
+    animation-fill-mode: forwards;
+}
+h1::selection {
+background: #FBD000;
+}
+
+h2 {
+    position: absolute;
+    color: #6e6e6e;
+    width: 100%;
+    text-align: center;
+    top: 25vh;
+    font-family: 'Roboto Mono', sans-serif; font-weight:400; font-style:italic;
+    font-size: 5vh;
+    user-select: none;
+}
