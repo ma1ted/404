@@ -69,7 +69,7 @@ const elasticOut = (t, a = 1, p = 0.3) => {
 
 let cube;
 const loader = new GLTFLoader();
-const parcelPath = new URL("../assets/block.glb", import.meta.url);
+const parcelPath = new URL("./assets/block.glb", import.meta.url);
 loader.load(
 	parcelPath.href,
 	(gltf) => {

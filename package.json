@@ -2,21 +2,17 @@
 	"name": "404",
 	"version": "1.0.0",
 	"description": "A landing page for soft 404 errors",
-	"main": "src/index.js",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
 	"dependencies": {
 		"three": "^0.138.3"
 	},
 	"devDependencies": {
 		"parcel": "^2.3.2"
 	},
-	"scripts": {
-		"dev": "parcel src/index.html",
-		"build": "parcel build src/index.html"
-	},
-	"keywords": [
-		"404",
-		"error"
-	],
 	"author": "ma1ted",
 	"license": "ISC"
 }
