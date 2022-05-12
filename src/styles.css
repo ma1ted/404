@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,400&display=swap");
+@font-face {
+	font-family: "JetBrains Mono";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../JetBrainsMono-Regular.woff2") format("woff2");
+  }
 
 @keyframes h1-position-easeOutElastic {
 	0% {
@@ -41,7 +46,7 @@ body {
 	text-align: center;
 	top: 5%;
 	color: white;
-	font-family: "Roboto Mono", sans-serif;
+	font-family: "JetBrains Mono", sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 20vh;
@@ -60,7 +65,7 @@ h2 {
 	width: 100%;
 	text-align: center;
 	top: 25vh;
-	font-family: "Roboto Mono", sans-serif;
+	font-family: "JetBrains Mono", monospace;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 5vh;
