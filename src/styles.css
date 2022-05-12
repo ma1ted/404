@@ -2,7 +2,7 @@
 	font-family: "JetBrains Mono";
 	font-weight: 400;
 	font-style: normal;
-	src: url("../JetBrainsMono-Regular.woff2") format("woff2");
+	src: url("../assets/JetBrainsMono-Regular.woff2") format("woff2");
   }
 
 @keyframes h1-position-easeOutElastic {
