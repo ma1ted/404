@@ -1,3 +1,5 @@
+document.getElementById("title").innerHTML = "404"; // Prevent FOUC
+
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
