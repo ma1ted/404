@@ -1,73 +1,110 @@
 @font-face {
-	font-family: "JetBrains Mono";
-	font-weight: 400;
-	font-style: normal;
-	src: url("../assets/JetBrainsMono-Regular.woff2") format("woff2");
-  }
+  font-family: "JetBrains Mono";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/JetBrainsMono-Regular.woff2") format("woff2");
+}
 
-@keyframes h1-position-easeOutElastic {
-	0% {
-		transform: translateY(calc(0% - 100%));
-	}
-	16% {
-		transform: translateY(calc(132.27% - 100%));
-	}
-	28% {
-		transform: translateY(calc(86.88% - 100%));
-	}
-	44% {
-		transform: translateY(calc(104.63% - 100%));
-	}
-	59% {
-		transform: translateY(calc(98.36% - 100%));
-	}
-	73% {
-		transform: translateY(calc(100.58% - 100%));
-	}
-	88% {
-		transform: translateY(calc(99.8% - 100%));
-	}
-	100% {
-		transform: translateY(calc(100% - 100%));
-	}
+@keyframes spring-in {
+  0% {
+    opacity: 1;
+    transform: translateY(calc(0% - 100%));
+  }
+  16% {
+    transform: translateY(calc(132.27% - 100%));
+  }
+  28% {
+    transform: translateY(calc(86.88% - 100%));
+  }
+  44% {
+    transform: translateY(calc(104.63% - 100%));
+  }
+  59% {
+    transform: translateY(calc(98.36% - 100%));
+  }
+  73% {
+    transform: translateY(calc(100.58% - 100%));
+  }
+  88% {
+    transform: translateY(calc(99.8% - 100%));
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(calc(100% - 100%));
+  }
 }
 
 body {
-	margin: 0;
-	overflow: hidden;
-	background-color: #292D29;
+  margin: 0;
+  overflow: hidden;
+  background-color: #293241;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+  color: #98c1d9;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+main > * {
+  margin: 0;
+  text-align: center;
 }
 
 .title-anim {
+  font-size: 20vh;
+  color: #e0fbfc;
+  animation: spring-in 1s 0.4s forwards;
+}
+h2 {
+  font-size: 5vh;
+}
+
+/* .title-anim {
+	opacity: 1 !important;
+
 	margin: 0;
 	position: absolute;
 	transform: translateY(-150%);
 	width: 100%;
 	text-align: center;
 	top: 5%;
-	color: white;
-	font-family: "JetBrains Mono", sans-serif;
-	font-weight: 400;
-	font-style: italic;
+	color: #e0fbfc;
 	font-size: 20vh;
-	animation-delay: 0.4s;
-	animation-duration: 1s;
-	animation-name: h1-position-easeOutElastic;
-	animation-fill-mode: forwards;
+	
+	
 }
-h1::selection {
+h1::selection, h2::selection {
 	background: #fbd000;
 }
 
 h2 {
 	position: absolute;
-	color: #6e6e6e;
+	color: #98c1d9;
 	width: 100%;
 	text-align: center;
 	top: 25vh;
-	font-family: "JetBrains Mono", monospace;
-	font-weight: 400;
-	font-style: italic;
 	font-size: 5vh;
 	user-select: none;
+} */
+
+p {
+  color: #3d5a80;
+  bottom: 0;
+  position: absolute;
+  margin: 1rem;
+  font-size: 1.5vh;
+}
+p a {
+  color: #3d5a80;
 }
