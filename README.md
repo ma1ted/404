@@ -1,9 +1,3 @@
-# 404
+# [404.malted.dev](https://404.malted.dev)
 
-<a href="https://replit.com/@malted/404">
-	<img width=100 src="https://replit.com/badge/github/malted/404/" alt="Run on Replit shield">
-</a>
-
-# An epic 404 landing page
-
-## [See it here](https://404.malted.dev)
+![cover](https://user-images.githubusercontent.com/59726149/183273965-34c3cffc-42ce-4947-a5d7-3b8f1b891008.png)
